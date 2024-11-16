@@ -32,7 +32,7 @@ class AdminPanelProvider extends PanelProvider
             ])
             ->font('Tajawal')
             ->brandLogo(asset(''))
-            ->favicon(asset('BRAND/LOGO.png'))
+            ->favicon(asset('BRAND/logo.png'))
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
             ->pages([
