@@ -31,9 +31,9 @@ class AdminPanelProvider extends PanelProvider
                 'primary' => Color::Amber,
             ])
             ->font('Tajawal')
-            ->brandLogo(asset('BRAND/logo.svg'))
+            ->brandLogo(asset('BRAND/logo.png'))
             ->brandLogoHeight('2.6rem')
-            ->favicon(asset('BRAND/favicon.svg'))
+            ->favicon(asset('BRAND/favicon.png'))
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
             ->pages([
